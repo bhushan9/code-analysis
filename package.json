@@ -1,0 +1,23 @@
+{
+  "name": "code-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "esprima.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhushan9/code-analysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhushan9/code-analysis/issues"
+  },
+  "homepage": "https://github.com/bhushan9/code-analysis#readme",
+  "dependencies": {
+    "esprima": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
