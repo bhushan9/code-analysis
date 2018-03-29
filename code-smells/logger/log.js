@@ -15,7 +15,7 @@ class LoggerFormat {
             child.callee.object &&
             child.callee.object.object &&
             child.callee.object.object.name === 'Ember' &&
-              child.callee.object.property.name === 'logger' && child.callee.property.name === 'error' ) {
+              child.callee.object.property.name === 'Logger' && child.callee.property.name === 'error' ) {
                 if (child.arguments.length == 1) {
                   if (child.arguments[0].type === 'Identifier')
                   {
