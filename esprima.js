@@ -15,10 +15,9 @@ var FunctionBuilder = require("./function-builder");
 
 
 function main() {
-    recursive("./web-directory/app/mixins/phone-service",[], function (err, files) {
+    recursive("./web-directory/app",[], function (err, files) {
         for (file of files) {
             if(file.split('.')[1] ==='js'){
-
                 complexity(file);
             }
         }
